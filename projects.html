@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects &mdash; Jennie Duong</title>
+    <link rel="icon" type="image/png" href="assets/images/favicon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <div class="container">
+        <header class="page-header">
+            <a href="index.html" class="back-link">&larr; home</a>
+            <h2 class="page-title">Projects</h2>
+        </header>
+
+        <main>
+            <p class="intro">Risk models and market research, mostly built in Python.</p>
+
+            <div class="project">
+                <h3>Banking ALM, IRRBB &amp; FTP Regulatory Engine</h3>
+                <p class="meta">Independent project &middot; Sep 2026 &ndash; Present &nbsp;<span class="in-progress">(in progress)</span></p>
+                <p>
+                    Building a Python/SQL asset-liability management engine aligned with SBV Circular
+                    83/2025/TT-NHNN and Basel III IRRBB: repricing gaps, &Delta;NII, and &Delta;EVE under
+                    prescribed interest-rate shocks, using Vietnamese bank disclosures and government-bond data.
+                </p>
+                <p>
+                    Designing funds-transfer-pricing and liquidity-risk modules to allocate funding costs by
+                    tenor, analyze liquidity gaps and concentrations, and produce ALCO dashboards for limit
+                    utilization and stress outcomes.
+                </p>
+                <div><span class="tag">Python</span><span class="tag">SQL</span><span class="tag">IRRBB</span><span class="tag">ALM</span><span class="tag">Basel III</span></div>
+            </div>
+
+            <div class="project">
+                <h3>Fed Rate-Path Tracker</h3>
+                <p class="meta">Independent project &nbsp;<span class="in-progress">(in progress)</span></p>
+                <p>
+                    A Taylor-rule-based probit model estimating the probability of rate hikes at upcoming FOMC
+                    meetings &mdash; my macro analyst calling card. Built from scratch to turn Fed communication
+                    and macro data into a probabilistic rate path.
+                </p>
+                <div><span class="tag">Python</span><span class="tag">Probit</span><span class="tag">Taylor Rule</span><span class="tag">Macro</span></div>
+            </div>
+
+            <div class="project">
+                <h3>FRTB Market Risk Engine</h3>
+                <p class="meta">May 2026</p>
+                <p>
+                    Built a regulatory risk engine producing daily 99% VaR, 97.5% Expected Shortfall, stress
+                    metrics, and limit-monitoring outputs for an SPY/TLT/GLD portfolio. Implemented Basel FRTB
+                    backtesting and stressed-window validation to identify exceptions, assess model accuracy,
+                    and support audit-ready reporting controls.
+                </p>
+                <div><span class="tag">Python</span><span class="tag">VaR</span><span class="tag">Expected Shortfall</span><span class="tag">FRTB</span></div>
+            </div>
+
+            <div class="project">
+                <h3>Credit Risk PD Modeling &amp; Model Validation</h3>
+                <p class="meta">SR 11-7 validation framework</p>
+                <p>
+                    Built a probability-of-default model on 250K Lending Club records under an SR 11-7 framework,
+                    including data-quality checks, leakage review, out-of-time testing, and model monitoring.
+                    Compared WOE scorecard and XGBoost models, improving AUC from 0.643 to 0.686 while testing
+                    calibration and population stability (PSI).
+                </p>
+                <div><span class="tag">Python</span><span class="tag">XGBoost</span><span class="tag">PD Modeling</span><span class="tag">SR 11-7</span></div>
+            </div>
+
+            <div class="project">
+                <h3>U.S. Treasury Yield Event Study</h3>
+                <p class="meta">Jan 2022 &ndash; Sep 2026</p>
+                <p>
+                    A Python event study of 94 macroeconomic announcements &mdash; 57 BLS CPI releases and 37
+                    FOMC decisions &mdash; measuring same-day basis-point moves and yield-curve shifts in Federal
+                    Reserve DGS2, DGS10, and DGS30 Treasury yields. Applied time-series analysis and statistical
+                    testing to compare yield volatility on announcement versus non-event days, linking
+                    monetary-policy changes to borrowing costs and interest-rate-sensitive industries.
+                </p>
+                <div><span class="tag">Python</span><span class="tag">Event Study</span><span class="tag">Time Series</span><span class="tag">Treasuries</span></div>
+            </div>
+        </main>
+
+        <footer>
+            <div class="social-links">
+                <u><a href="mailto:nguyetanhdl23905@gmail.com" aria-label="Email">nguyetanhdl23905@gmail.com</a></u>
+                <p>&bull;</p>
+                <a href="https://github.com/" target="_blank" aria-label="GitHub"><i class="fa-brands fa-github fa-lg"></i></a>
+                <a href="https://www.linkedin.com/in/jennie-duong-36888a2b6/" target="_blank" aria-label="LinkedIn"><i class="fa-brands fa-linkedin fa-lg"></i></a>
+                <p>&bull;</p>
+                <u><a href="assets/files/resume.pdf" target="_blank">Resume</a></u>
+            </div>
+            <p>&copy; 2026 Jennie Duong</p>
+        </footer>
+    </div>
+</body>
+</html>
