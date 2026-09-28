@@ -25,14 +25,14 @@
                 <h3>Banking ALM, IRRBB &amp; FTP Regulatory Engine</h3>
                 <p class="meta">Independent project &middot; Sep 2026 &ndash; Present &nbsp;<span class="in-progress">(in progress)</span></p>
                 <p>
-                    Building a Python/SQL asset-liability management engine aligned with SBV Circular
-                    83/2025/TT-NHNN and Basel III IRRBB: repricing gaps, &Delta;NII, and &Delta;EVE under
-                    prescribed interest-rate shocks, using Vietnamese bank disclosures and government-bond data.
+                    Building a tool in Python and SQL that shows how interest-rate changes affect a bank's
+                    profits and balance sheet, following international banking rules (Basel III) and
+                    Vietnamese regulations. It runs on real data from Vietnamese bank reports and
+                    government bonds.
                 </p>
                 <p>
-                    Designing funds-transfer-pricing and liquidity-risk modules to allocate funding costs by
-                    tenor, analyze liquidity gaps and concentrations, and produce ALCO dashboards for limit
-                    utilization and stress outcomes.
+                    I'm also adding modules that break down the bank's funding costs by product and track
+                    cash-flow risks, with dashboards showing how the bank would hold up under stressed scenarios.
                 </p>
                 <div><span class="tag">Python</span><span class="tag">SQL</span><span class="tag">IRRBB</span><span class="tag">ALM</span><span class="tag">Basel III</span></div>
             </div>
@@ -41,9 +41,10 @@
                 <h3>Fed Rate-Path Tracker</h3>
                 <p class="meta">Independent project &nbsp;<span class="in-progress">(in progress)</span></p>
                 <p>
-                    A Taylor-rule-based probit model estimating the probability of rate hikes at upcoming FOMC
-                    meetings. Built from scratch to turn Fed communication
-                    and macro data into a probabilistic rate path.
+                    My macro analyst calling card: a model that estimates the odds of the Federal Reserve
+                    raising, holding, or cutting interest rates at its upcoming meetings. Built from
+                    scratch, it turns Fed statements and economic data into a clear picture of where rates
+                    are likely headed.
                 </p>
                 <div><span class="tag">Python</span><span class="tag">Probit</span><span class="tag">Taylor Rule</span><span class="tag">Macro</span></div>
             </div>
@@ -52,10 +53,10 @@
                 <h3>FRTB Market Risk Engine</h3>
                 <p class="meta">May 2026</p>
                 <p>
-                    Built a regulatory risk engine producing daily 99% VaR, 97.5% Expected Shortfall, stress
-                    metrics, and limit-monitoring outputs for an SPY/TLT/GLD portfolio. Implemented Basel FRTB
-                    backtesting and stressed-window validation to identify exceptions, assess model accuracy,
-                    and support audit-ready reporting controls.
+                    Built a risk-measurement tool that estimates how much a stock-and-bond portfolio
+                    (SPY/TLT/GLD) could lose on a bad day, and even more on a really bad day, following
+                    international banking standards. It checks its own accuracy by comparing past predictions
+                    against what actually happened, so the results hold up under review.
                 </p>
                 <div><span class="tag">Python</span><span class="tag">VaR</span><span class="tag">Expected Shortfall</span><span class="tag">FRTB</span></div>
                 <p><u><a href="https://github.com/jennied2/FRTB-Market-Risk-Engine" target="_blank">GitHub Repository</a></u></p>
@@ -65,10 +66,10 @@
                 <h3>Credit Risk PD Modeling &amp; Model Validation</h3>
                 <p class="meta">SR 11-7 validation framework</p>
                 <p>
-                    Built a probability-of-default model on 250K Lending Club records under an SR 11-7 framework,
-                    including data-quality checks, leakage review, out-of-time testing, and model monitoring.
-                    Compared WOE scorecard and XGBoost models, improving AUC from 0.643 to 0.686 while testing
-                    calibration and population stability (PSI).
+                    Built a model that predicts how likely borrowers are to default on their loans, trained on
+                    250,000 real lending records and validated under Federal Reserve model-risk standards.
+                    I compared two modeling approaches and improved prediction accuracy, then stress-tested
+                    the model to make sure its forecasts stay reliable over time.
                 </p>
                 <div><span class="tag">Python</span><span class="tag">XGBoost</span><span class="tag">PD Modeling</span><span class="tag">SR 11-7</span></div>
                 <p><u><a href="https://github.com/jennied2/credit-risk-pd-validation" target="_blank">GitHub Repository</a></u></p>
@@ -78,11 +79,10 @@
                 <h3>U.S. Treasury Yield Event Study</h3>
                 <p class="meta">Jan 2022 &ndash; Sep 2026</p>
                 <p>
-                    A Python event study of 94 macroeconomic announcements, 57 BLS CPI releases and 37
-                    FOMC decisions, measuring same-day basis-point moves and yield-curve shifts in Federal
-                    Reserve DGS2, DGS10, and DGS30 Treasury yields. Applied time-series analysis and statistical
-                    testing to compare yield volatility on announcement versus non-event days, linking
-                    monetary-policy changes to borrowing costs and interest-rate-sensitive industries.
+                    Studied how 94 major economic announcements (inflation reports and Federal Reserve
+                    decisions) moved U.S. government bond yields on the day they were released. Yields
+                    swing far more on announcement days than ordinary days, showing how central-bank decisions
+                    ripple through to borrowing costs for businesses and households.
                 </p>
                 <div><span class="tag">Python</span><span class="tag">Event Study</span><span class="tag">Time Series</span><span class="tag">Treasuries</span></div>
             </div>
