@@ -40,14 +40,14 @@ header {
 }
 
 h1 {
-    font-size: 3rem;
+    font-size: 46px;
     font-weight: 400;
     letter-spacing: -1px;
     margin-bottom: 5px;
 }
 
 .subtitle {
-    font-size: 1.2rem;
+    font-size: 17.2px;
     color: #666;
     font-style: italic;
 }
@@ -128,7 +128,7 @@ nav ul {
 nav a {
     color: #2a2a2a;
     text-decoration: none;
-    font-size: 1.1rem;
+    font-size: 15.6px;
     position: relative;
     transition: color 0.3s ease;
 }
@@ -171,7 +171,7 @@ main h2 {
 }
 
 main p {
-    font-size: 1.15rem;
+    font-size: 16.4px;
     line-height: 1.8;
     margin-bottom: 20px;
     text-align: justify;
@@ -400,11 +400,11 @@ footer {
     }
 
     h1 {
-        font-size: 2.8rem;
+        font-size: 42.8px;
     }
 
     .subtitle {
-        font-size: 1.2rem;
+        font-size: 17.2px;
     }
 
     nav ul {
@@ -413,7 +413,7 @@ footer {
     }
 
     nav a {
-        font-size: 1.1rem;
+        font-size: 15.6px;
     }
 
     main h2 {
@@ -421,7 +421,7 @@ footer {
     }
 
     main p {
-        font-size: 1.1rem;
+        font-size: 15.6px;
         text-align: left;
     }
 
