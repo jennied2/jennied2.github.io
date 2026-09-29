@@ -104,7 +104,7 @@ h1 {
 }
 
 .page-title {
-    font-size: 42.8px;
+    font-size: 32px;
     font-weight: 700;
     margin: 0;
     text-align: center;
@@ -350,6 +350,10 @@ footer {
     justify-content: center;
 }
 
+.social-links a:hover {
+    color: #666;
+}
+
 .social-links i {
     font-size: 1.5rem;
 }
@@ -378,7 +382,7 @@ footer {
     }
 
     .page-title {
-        font-size: 33.2px;
+        font-size: 32px;
     }
 
     header {
